@@ -351,22 +351,7 @@ function Etim() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-r from-slate-800 via-slate-900 to-slate-800 text-white py-16">
-        <div className="max-w-7xl mx-auto px-6 text-center">
-          <div className="flex items-center justify-center space-x-4 mb-6">
-            <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center transform hover:rotate-12 transition-transform duration-300">
-              <Database className="w-6 h-6 text-white" />
-            </div>
-            <div>
-              <div className="text-2xl font-bold">ETIM International</div>
-              <div className="text-sm text-slate-400">Classification Standards</div>
-            </div>
-          </div>
-          <p className="text-slate-400 text-lg">
-            Comprehensive ETIM classification and values gathering services for technical products
-          </p>
-        </div>
-      </footer>
+      
     </div>
   );
 }

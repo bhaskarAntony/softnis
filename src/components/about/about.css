@@ -1,0 +1,5 @@
+.about{
+    background:linear-gradient(#0000007e, #33a0ed95), url('./about.jpg') top;
+    background-size: 100%;
+    /* background-attachment: fixed; */
+}

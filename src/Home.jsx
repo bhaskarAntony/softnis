@@ -10,6 +10,8 @@ import {
   Globe,
   TrendingUp
 } from 'lucide-react';
+import Hero from './components/hero/Hero';
+import About from './components/about/About';
 
 function Home() {
   const [currentClient, setCurrentClient] = useState(0);
@@ -218,7 +220,8 @@ function Home() {
     
 
       {/* Hero Section */}
-      <section className="pt-24 pb-20 bg-gradient-to-br from-blue-50 via-white to-teal-50 relative overflow-hidden">
+      <Hero/>
+      {/* <section className="pt-24 pb-20 bg-gradient-to-br from-blue-50 via-white to-teal-50 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/5 to-teal-600/5"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -311,7 +314,50 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+      <section className="py-20 bg-white">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-16">
+      <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
+      <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-teal-600 mx-auto mb-6"></div>
+      <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
+        Comprehensive data solutions tailored to each client's unique needs. At SoftNis, we believe in empowering businesses through better data, fostering long-term partnerships built on trust and excellence.
+      </p>
+    </div>
+
+    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+      {services.map((service, index) => (
+        <div
+          key={index}
+          className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 group overflow-hidden border border-gray-100"
+        >
+          <div className="h-48 overflow-hidden">
+            <img 
+              src={service.image} 
+              alt={service.title}
+              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+            />
+          </div>
+          <div className="p-6 sm:p-8 flex flex-col h-[calc(100%-12rem)]">
+            <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors">
+              {service.title}
+            </h3>
+            <p className="text-gray-600 leading-relaxed mb-6 flex-grow">
+              {service.description}
+            </p>
+            <div className="mt-auto">
+              <button className="flex items-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl mt-4 w-full justify-center">
+                Learn More 
+                <ChevronRight className="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" />
+              </button>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* Stats Section */}
       <section id="stats-section" className="py-20 bg-gradient-to-r from-blue-50 to-teal-50">
@@ -345,50 +391,11 @@ function Home() {
         </div>
       </section>
 
+      <About/>
+
 
       {/* our services */}
-<section className="py-20 bg-white">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div className="text-center mb-16">
-      <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
-      <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-teal-600 mx-auto mb-6"></div>
-      <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-        Comprehensive data solutions tailored to each client's unique needs. At SoftNis, we believe in empowering businesses through better data, fostering long-term partnerships built on trust and excellence.
-      </p>
-    </div>
 
-    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-      {services.map((service, index) => (
-        <div
-          key={index}
-          className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105 group overflow-hidden border border-gray-100"
-        >
-          <div className="h-48 overflow-hidden">
-            <img 
-              src={service.image} 
-              alt={service.title}
-              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-            />
-          </div>
-          <div className="p-6 sm:p-8 flex flex-col h-[calc(100%-12rem)]">
-            <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors">
-              {service.title}
-            </h3>
-            <p className="text-gray-600 leading-relaxed mb-6 flex-grow">
-              {service.description}
-            </p>
-            <div className="mt-auto">
-              <button className="text-blue-600 font-semibold hover:text-blue-800 transition-colors inline-flex items-center group">
-                Learn More 
-                <ChevronRight className="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" />
-              </button>
-            </div>
-          </div>
-        </div>
-      ))}
-    </div>
-  </div>
-</section>
 
       {/* Industries Section */}
       <section className="py-20 bg-gray-50">

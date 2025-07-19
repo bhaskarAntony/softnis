@@ -236,28 +236,7 @@ function AboutUs() {
           </div>
         </div>
 
-        {/* Call to Action */}
-        <div className={`text-center transform transition-all duration-1000 delay-1200 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-          <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-12 text-white relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-600/90 to-purple-600/90"></div>
-            <div className="relative z-10">
-              <h3 className="text-3xl font-bold mb-4">Ready to Transform Your Data?</h3>
-              <p className="text-blue-100 mb-8 max-w-2xl mx-auto text-lg">
-                Join hundreds of satisfied clients who trust SoftNis for their data management needs. Let's discuss how we can help streamline your operations.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="inline-flex items-center space-x-2 bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-blue-50 hover:scale-105 transition-all duration-300 shadow-lg">
-                  <span>Get Started Today</span>
-                  <ChevronRight className="w-5 h-5" />
-                </button>
-                <button className="inline-flex items-center space-x-2 border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-blue-600 transition-all duration-300">
-                  <span>Learn More</span>
-                  <Target className="w-5 h-5" />
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
+      
       </div>
     </div>
   );

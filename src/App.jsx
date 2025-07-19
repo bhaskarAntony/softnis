@@ -11,6 +11,8 @@ import AboutUs from './components/AboutUs';
 import Home from './Home';
 import Header from './components/Header';
 import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
+import MRO from './components/MRO';
 
 
 
@@ -23,6 +25,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/health" element={<HealthcareDataEnrichment />} />
         <Route path="/eclass" element={<Eclass />} />
+        <Route path="/mro" element={<MRO />} />
         <Route path="/etim" element={<Etim/>}/>
         <Route path='/staff' element={<Staff/>}/>
         <Route path='/unspc' element={<Unsp/>}/>
@@ -30,8 +33,9 @@ function App() {
         <Route path='/faq' element={<Faq/>}/>
         <Route path='/aboutus' element={<AboutUs/>}/>
         <Route path='/contactus' element={<ContactUs/>}/>
-       
       </Routes>
+       <Footer/>
+
     </Router>
   );
 }

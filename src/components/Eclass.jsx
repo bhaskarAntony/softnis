@@ -487,57 +487,7 @@ function Eclass() {
         </div>
       </div>
 
-      {/* CTA Section */}
-      <div className="py-20 bg-gradient-to-r from-blue-600 to-indigo-700 relative overflow-hidden">
-        <div className="absolute inset-0">
-          <div className="absolute top-10 left-10 w-40 h-40 bg-white/10 rounded-full blur-2xl animate-pulse"></div>
-          <div className="absolute bottom-10 right-10 w-60 h-60 bg-white/10 rounded-full blur-2xl animate-pulse delay-1000"></div>
-        </div>
-        
-        <div className="container mx-auto px-6 text-center relative z-10">
-          <h2 className="text-4xl font-bold text-white mb-6">
-            Ready to Transform Your Product Data?
-          </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Join thousands of companies that trust us with their ECLASS classification needs.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="group bg-white text-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
-              <span className="flex items-center gap-2">
-                Start Your Project
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-              </span>
-            </button>
-            <button className="group bg-transparent text-white px-8 py-4 rounded-full font-semibold border-2 border-white hover:bg-white hover:text-blue-600 transition-all duration-300 transform hover:scale-105">
-              <span className="flex items-center gap-2">
-                <Download className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
-                Download Brochure
-              </span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {/* Footer */}
-      <div className="py-12 bg-slate-900">
-        <div className="container mx-auto px-6">
-          <div className="text-center">
-            <div className="flex items-center justify-center gap-2 mb-4">
-              <Database className="w-8 h-8 text-blue-400" />
-              <span className="text-2xl font-bold text-white">SoftNis ECLASS</span>
-            </div>
-            <p className="text-gray-400 mb-6">Professional ECLASS Classification Solutions</p>
-            <div className="flex justify-center gap-6">
-              {[Globe, Shield, Award, Target].map((Icon, index) => (
-                <div key={index} className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-colors duration-300 cursor-pointer">
-                  <Icon className="w-6 h-6 text-white hover:text-blue-400 transition-colors duration-300" />
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
   );
 }

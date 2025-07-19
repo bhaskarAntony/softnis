@@ -30,9 +30,9 @@ function Header() {
           <button className="text-gray-700 hover:text-blue-600 font-semibold transition duration-300 py-2">
             COMPANY
           </button>
-          <div className="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 py-2 w-40">
-            <a href="/aboutus" className="block px-4 py-2 hover:bg-blue-50 text-gray-700">About Us</a>
-            <a href="/faq" className="block px-4 py-2 hover:bg-blue-50 text-gray-700">FAQ</a>
+          <div className="absolute hidden group-hover:block bg-white shadow-lg rounded-lg py-2 w-40">
+            <a href="/aboutus" className="block px-4 py-2 hover:bg-blue-500 hover:text-white text-gray-700">About Us</a>
+            <a href="/faq" className="block px-4 py-2 hover:bg-blue-500 hover:text-white text-gray-700">FAQ</a>
           </div>
         </div>
 
@@ -42,13 +42,13 @@ function Header() {
             SERVICES
           </button>
           <div className="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-0 py-2 w-[300px]">
-            <a href="/health" className="block px-4 py-2 hover:bg-blue-50 text-gray-700">Healthcare Products Catalog Data Enrichment & Classification Services</a>
-            <a href="#" className="block px-4 py-2 hover:bg-blue-50 text-gray-700">MRO Data Enrichment Cleansing, De-Duplication and Classification</a>
-            <a href="/eclass" className="block px-4 py-2 hover:bg-blue-50 text-gray-700">ECLASS Classification With Properties and Values</a>
-            <a href="/etim" className="block px-4 py-2 hover:bg-blue-50 text-gray-700">ETIM Classification and Values Gathering</a>
-            <a href="/staff" className="block px-4 py-2 hover:bg-blue-50 text-gray-700">Staffing Solutions</a>
-            <a href="/unspc" className="block px-4 py-2 hover:bg-blue-50 text-gray-700">UNSPSC</a>
-            <a href="/cpv" className="block px-4 py-2 hover:bg-blue-50 text-gray-700">CPV</a>
+            <a href="/health" className="block px-4 py-2 hover:bg-blue-500 hover:text-white text-gray-700">Healthcare Products Catalog Data Enrichment & Classification Services</a>
+            <a href="/mro" className="block px-4 py-2 hover:bg-blue-500 hover:text-white text-gray-700">MRO Data Enrichment Cleansing, De-Duplication and Classification</a>
+            <a href="/eclass" className="block px-4 py-2 hover:bg-blue-500 hover:text-white text-gray-700">ECLASS Classification With Properties and Values</a>
+            <a href="/etim" className="block px-4 py-2 hover:bg-blue-500 hover:text-white text-gray-700">ETIM Classification and Values Gathering</a>
+            <a href="/staff" className="block px-4 py-2 hover:bg-blue-500 hover:text-white text-gray-700">Staffing Solutions</a>
+            <a href="/unspc" className="block px-4 py-2 hover:bg-blue-500 hover:text-white text-gray-700">UNSPSC</a>
+            <a href="/cpv" className="block px-4 py-2 hover:bg-blue-500 hover:text-white text-gray-700">CPV</a>
           </div>
         </div>
 
@@ -57,9 +57,9 @@ function Header() {
           <button className="text-gray-700 hover:text-blue-600 font-semibold transition duration-300 py-2">
             SOFTWARE
           </button>
-          <div className="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 py-2 w-56">
-            <a href="#" className="block px-4 py-2 hover:bg-blue-50 text-gray-700">Data Cleaning Tool</a>
-            <a href="#" className="block px-4 py-2 hover:bg-blue-50 text-gray-700">Web Scraping Tool</a>
+          <div className="absolute hidden group-hover:block bg-white shadow-lg rounded-lg  py-2 w-56">
+            <a href="#" className="block px-4 py-2 hover:bg-blue-500 hover:text-white hover:text-white text-white-700">Data Cleaning Tool</a>
+            <a href="#" className="block px-4 py-2 hover:bg-blue-500 hover:text-white text-gray-700">Web Scraping Tool</a>
           </div>
         </div>
 
@@ -68,11 +68,11 @@ function Header() {
           <button className="text-gray-700 hover:text-blue-600 font-semibold transition duration-300 py-2">
             RESULTS
           </button>
-          <div className="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-2 py-2 w-40">
-            <a href="#" className="block px-4 py-2 hover:bg-blue-50 text-gray-700">Case Studies</a>
-            <a href="#" className="block px-4 py-2 hover:bg-blue-50 text-gray-700">Download Data Samples</a>
-            <a href="#" className="block px-4 py-2 hover:bg-blue-50 text-gray-700">Testimonials</a>
-            <a href="#" className="block px-4 py-2 hover:bg-blue-50 text-gray-700">Clientele</a>
+          <div className="absolute hidden group-hover:block bg-white shadow-lg rounded-lg  py-2 w-40">
+            <a href="#" className="block px-4 py-2 hover:bg-blue-500 hover:text-white text-gray-700">Case Studies</a>
+            <a href="#" className="block px-4 py-2 hover:bg-blue-500 hover:text-white text-gray-700">Download Data Samples</a>
+            <a href="#" className="block px-4 py-2 hover:bg-blue-500 hover:text-white text-gray-700">Testimonials</a>
+            <a href="#" className="block px-4 py-2 hover:bg-blue-500 hover:text-white text-gray-700">Clientele</a>
           </div>
         </div>
 

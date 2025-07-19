@@ -915,29 +915,10 @@ const HealthcareDataEnrichment = () => {
       </div>
 
       {/* CTA Section */}
-      <div className="bg-gradient-to-r from-blue-900 to-indigo-900 py-20">
-        <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Ready to Enhance Your Product Data?
-          </h2>
-          <p className="text-xl text-blue-100 mb-8">
-            Transform your healthcare product catalog with our professional data enrichment services.
-          </p>
-          <button className="group bg-white text-blue-900 px-10 py-5 rounded-full text-lg font-bold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl flex items-center mx-auto">
-            Start Your Project
-            <Zap className="ml-3 w-5 h-5 group-hover:scale-110 transition-transform" />
-          </button>
-        </div>
-      </div>
+    
 
       {/* Footer */}
-      <div className="bg-gray-900 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-gray-400">
-            © 2025 SoftNis Healthcare Data Solutions. Professional data enrichment services for the healthcare industry.
-          </p>
-        </div>
-      </div>
+     
     </div>
   );
 };

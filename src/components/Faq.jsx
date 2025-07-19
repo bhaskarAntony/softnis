@@ -437,14 +437,7 @@ const Faq = () => {
             </div>
           </div>
 
-          {/* CTA Button */}
-          <button className="group relative bg-gradient-to-r from-blue-600 to-purple-600 text-white px-10 py-5 rounded-2xl font-bold text-lg transition-all duration-500 transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25 overflow-hidden">
-            <span className="relative z-10 flex items-center justify-center">
-              Contact Our Team
-              <ArrowRight className="ml-3 w-6 h-6 group-hover:translate-x-2 transition-transform duration-300" />
-            </span>
-            <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-          </button>
+        
         </div>
       </div>
 

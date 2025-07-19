@@ -370,38 +370,10 @@ function Unsp() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-slate-900 to-blue-900">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-12">
-            Ready to Get Started with UNSPSC Classification?
-          </h2>
-          
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-            <div className="flex items-center justify-center gap-3 mb-6">
-              <Mail className="text-cyan-400" size={28} />
-              <a 
-                href="mailto:sales@softnis.com" 
-                className="text-2xl text-white hover:text-cyan-300 transition-colors duration-300 font-medium"
-              >
-                sales@softnis.com
-              </a>
-            </div>
-            
-            <p className="text-blue-100 text-lg">
-              Contact us today for your UNSPSC classification needs
-            </p>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Footer */}
-      <footer className="py-8 px-4 sm:px-6 lg:px-8 bg-slate-950 border-t border-slate-800">
-        <div className="max-w-7xl mx-auto text-center">
-          <p className="text-slate-400">
-            © 2024 SoftNis UNSPSC Services. All rights reserved.
-          </p>
-        </div>
-      </footer>
+      
     </div>
   );
 }
