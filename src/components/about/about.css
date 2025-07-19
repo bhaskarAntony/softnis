@@ -1,5 +1,14 @@
 .about{
-    background:linear-gradient(#0000007e, #33a0ed95), url('./about.jpg') top;
-    background-size: 100%;
-    /* background-attachment: fixed; */
+    background:linear-gradient(#0000007e, #09406795), url('./about.jpg') top no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media(max-width:576px){
+    .about{
+    background:linear-gradient(#00000034, #002743f1), url('./about.jpg') top no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
 }
