@@ -1,4 +1,4 @@
 .hero{
-    background:linear-gradient(#0000007e, #0d344a), url('./about_us_banner.jpg') top;
+    background:linear-gradient(#0000007e, #010f17), url('../../assets/Banner_Image.jpeg') top;
     background-size: cover;
 }

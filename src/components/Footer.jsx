@@ -186,15 +186,15 @@ function Footer() {
                 <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6 mb-4 md:mb-0">
                   <div className="flex items-center text-slate-300 hover:text-white transition-colors duration-200 group text-sm">
                     <Mail className="w-4 h-4 mr-2 text-blue-400 group-hover:scale-110 transition-transform duration-200" />
-                    <span>contact@softnis.com</span>
+                    <span>sales@softnis.com</span>
                   </div>
                   <div className="flex items-center text-slate-300 hover:text-white transition-colors duration-200 group text-sm">
                     <Phone className="w-4 h-4 mr-2 text-purple-400 group-hover:scale-110 transition-transform duration-200" />
-                    <span>+1 (555) 123-4567</span>
+                    <span>+91.990.070.0599</span>
                   </div>
                   <div className="flex items-center text-slate-300 hover:text-white transition-colors duration-200 group text-sm">
                     <MapPin className="w-4 h-4 mr-2 text-teal-400 group-hover:scale-110 transition-transform duration-200" />
-                    <span>San Francisco, CA</span>
+                    <span> #999/30, 1st Main Road, Vijaynagar, Bangalore-560040, Karnataka, India.</span>
                   </div>
                 </div>
                 
@@ -221,7 +221,7 @@ function Footer() {
           <div className="relative z-10 border-t border-slate-700 bg-slate-900/50 backdrop-blur-sm">
             <div className="max-w-7xl mx-auto px-6 py-3 flex flex-col md:flex-row items-center justify-between text-xs text-slate-400">
               <div className="mb-2 md:mb-0">
-                © 2024 SoftNis. All rights reserved.
+                © 2025 oftNis IT Management Services Private Limited. All Rights Reserved.
               </div>
               <div className="flex space-x-4">
                 <a href="#" className="hover:text-white transition-colors duration-200">Privacy Policy</a>

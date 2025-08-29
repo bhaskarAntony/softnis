@@ -1,5 +1,5 @@
 .about{
-    background:linear-gradient(#0000007e, #09406795), url('./about.jpg') top no-repeat;
+    background:linear-gradient(#0000007e, #09406795), url('../../assets/About_US_Image_Updated.jpeg') top no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }

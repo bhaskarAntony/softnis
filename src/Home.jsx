@@ -8,10 +8,11 @@ import {
   Award,
   Users,
   Globe,
-  TrendingUp
+  TrendingUp,
 } from 'lucide-react';
 import Hero from './components/hero/Hero';
 import About from './components/about/About';
+import {Link}from 'react-router-dom'
 
 function Home() {
   const [currentClient, setCurrentClient] = useState(0);
@@ -66,32 +67,38 @@ function Home() {
     {
       image: "https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
       title: "Material Master Data Cleansing & Classification",
-      description: "Comprehensive data cleansing and classification services for your material master data with advanced algorithms and quality assurance."
+      description: "Comprehensive data cleansing and classification services for your material master data with advanced algorithms and quality assurance.",
+      link:'/mro'
     },
     {
       image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
       title: "ECLASS Classification With Properties & Values",
-      description: "Expert ECLASS classification with detailed properties and values mapping for international standardization."
+      description: "Expert ECLASS classification with detailed properties and values mapping for international standardization.",
+      link:'/eclass'
     },
     {
       image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
       title: "eCommerce Product Data Enrichment",
-      description: "Enhance your eCommerce product data with rich descriptions, attributes, and optimized content for better conversions."
+      description: "Enhance your eCommerce product data with rich descriptions, attributes, and optimized content for better conversions.",
+      link:'/unspc'
     },
     {
       image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
       title: "Vendor/Supplier Data Management",
-      description: "Streamline your vendor and supplier data management processes with automated workflows and quality controls."
+      description: "Streamline your vendor and supplier data management processes with automated workflows and quality controls.",
+      link:'/mro'
     },
     {
       image: "https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
       title: "Healthcare Products Catalog Data Enrichment & Classification",
-      description: "Specialized healthcare product data enrichment and classification services with regulatory compliance focus."
+      description: "Specialized healthcare product data enrichment and classification services with regulatory compliance focus.",
+      link:'/health'
     },
     {
       image: "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
       title: "UNSPSC Classification Services",
-      description: "Professional UNSPSC classification services for global standard compliance and seamless procurement integration."
+      description: "Professional UNSPSC classification services for global standard compliance and seamless procurement integration.",
+      link:'/unspc'
     }
   ];
 
@@ -133,19 +140,24 @@ function Home() {
       image: "https://www.softnis.com/img/case/home-page-case-study.webp",
       title: "UNSPSC Classification Excellence",
       description: "Discover how SoftNis enabled a leading Danish distributor to achieve 100% product classification at the commodity level.",
-      details: "Our tailored UNSPSC classification solutions ensure precise product categorization for seamless platform integration."
+      details: "Our tailored UNSPSC classification solutions ensure precise product categorization for seamless platform integration.",
+      link:'unpsc'
     },
     {
       image: "https://www.softnis.com/img/case/case-study-2.webp",
       title: "Multi-Language Data Processing",
       description: "Learn how SoftNis tackled the complexities of classifying over 3 million Japanese-language products to UNSPSC standards.",
-      details: "Our innovative approach overcame language barriers, enhancing product visibility and spend management for a leading Asian distributor."
+      details: "Our innovative approach overcame language barriers, enhancing product visibility and spend management for a leading Asian distributor.",
+      link:'unpsc'
+
     },
     {
       image: "https://www.softnis.com/img/case/case-studay-3.webp",
       title: "MRO Data Transformation",
       description: "Discover how SoftNis assisted Chemtrade Logistics in cleansing and classifying 31,000 MRO materials, enhancing procurement efficiency.",
-      details: "Our comprehensive data management solutions reduced inventory duplication and improved spend visibility for a leading chemical manufacturer."
+      details: "Our comprehensive data management solutions reduced inventory duplication and improved spend visibility for a leading chemical manufacturer.",
+      link:'mro'
+
     }
   ];
 
@@ -347,10 +359,10 @@ function Home() {
               {service.description}
             </p>
             <div className="mt-auto">
-              <button className="flex items-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl mt-4 w-full justify-center">
+              <Link to={service.link} className="flex items-center bg-light-600 hover:bg-blue-700 hover:text-white border font-semibold py-3 px-6 rounded-lg transition-all duration-300  hover:shadow-xl mt-4 w-full justify-center">
                 Learn More 
                 <ChevronRight className="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" />
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -463,9 +475,7 @@ function Home() {
               {study.details}
             </p>
             <div className="mt-auto">
-              <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors w-full">
-                Read More
-              </button>
+              <Link to={study.link} className="flex items-center bg-light-600 hover:bg-blue-700 hover:text-white border font-semibold py-3 px-6 rounded-lg transition-all duration-300  hover:shadow-xl mt-4 w-full justify-center"> Read More</Link>
             </div>
           </div>
         </div>
